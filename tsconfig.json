@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "target": "es2015",
+        "lib": ["ESNext"],
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "experimentalDecorators": true,
+        "sourceMap": true,
+        "declaration": true,
+        "skipLibCheck": true
+    },
+    "exclude": ["**/*.test.ts"]
+}

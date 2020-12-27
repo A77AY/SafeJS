@@ -1,0 +1,11 @@
+{
+    "typescript.tsdk": "node_modules\\typescript\\lib",
+    "files.exclude": {
+        "**/.git": false,
+        "**/.svn": false,
+        "**/.hg": false,
+        "**/CVS": false,
+        "**/.DS_Store": false,
+        "**/node_modules": false
+    }
+}

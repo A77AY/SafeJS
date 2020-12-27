@@ -1,0 +1,34 @@
+{
+  "name": "safejs",
+  "description": "Safe extensions and utilities for the JavaScript (TypeScript)",
+  "keywords": [
+    "JS",
+    "TS",
+    "extension",
+    "util"
+  ],
+  "version": "0.0.0",
+  "main": "lib/index.js",
+  "types": "lib/index.d.js",
+  "license": "MIT",
+  "author": {
+    "name": "Rinat Arsaev",
+    "email": "krickray@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KrickRay/safejs.git",
+    "directory": "packages/safejs"
+  },
+  "homepage": "https://github.com/KrickRay/safejs",
+  "scripts": {
+    "test": "jest",
+    "watch": "jest --watch",
+    "clean": "shx rm -rf lib",
+    "build": "yarn clean & tsc -p tsconfig.json & yarn readme",
+    "readme": "shx cp ../../README.md ./"
+  },
+  "dependencies": {
+    "@safejs/serializer": "^0.0.0"
+  }
+}
