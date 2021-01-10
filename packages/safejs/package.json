@@ -30,6 +30,5 @@
   },
   "dependencies": {
     "@safejs/serializer": "^0.1.1"
-  },
-  "gitHead": "ac3b6a1f5aaf6c754c993b2c5dea950d348f2936"
+  }
 }
