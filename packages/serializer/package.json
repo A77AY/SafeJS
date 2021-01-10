@@ -1,6 +1,6 @@
 {
   "name": "@safejs/serializer",
-  "description": "Serializer for recursive JavaScript to a superset of JSON that includes regular expressions, dates and functions, which you can also expand yourself",
+  "description": "Serializer is a superset of JSON that includes recursive objects, dates, regular expressions, functions and others which you also can expand by yourself",
   "keywords": [
     "serializer",
     "deserializer",

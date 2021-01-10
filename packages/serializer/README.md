@@ -2,27 +2,27 @@
 
 [![npm version](https://badge.fury.io/js/%40safejs%2Fserializer.svg)](https://badge.fury.io/js/%40safejs%2Fserializer)
 
-Serializer for recursive JavaScript to a superset of JSON that includes regular expressions, dates and functions, which you can also expand yourself.
+Serializer is a superset of JSON that includes recursive objects, dates, regular expressions, functions and others which you also can expand by yourself.
 
--   Recursive JSON
--   JS types with prepared presets:
+-   Recursive objects
+-   JS presets:
     -   constants: `undefined`, `Infinity`, `NaN`
     -   functions (default disabled)
-    -   ES5: `Date`, `RegExp` (contains constants) (by default)
-    -   ES2015: `Symbol`, `Map`, `Set` (contains ES5 & constants)
+    -   ES5 (contains constants) (by default): `Date`, `RegExp`
+    -   ES2015 (contains ES5 & constants): `Symbol`, `Map`, `Set`
 -   Support custom serializers
 
-> [Other "safe" extensions and utilities for JS (TS)](https://github.com/KrickRay/safejs)
+> [Other "safe" extensions and utilities for JavaScript (TypeScript)](https://github.com/KrickRay/safejs)
 
 ## Installation
 
 ```sh
-npm i @safets/serializer
+npm i @safejs/serializer
 ```
 
 ## Usage
 
-### Serialize recursive JSON
+### Serialize recursive objects
 
 ```ts
 const serializer = new Serializer();
@@ -34,7 +34,7 @@ const serializedObj = serializer.serialize(recursiveObj);
 const deserializedObj = serializer.deserialize(serializedObj); // is equal with var recursiveObj
 ```
 
-### Serialize JS types
+### Serialize JS types & objects
 
 ```ts
 const serializer = new Serializer({ preset: "es2015" });

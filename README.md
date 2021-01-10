@@ -2,7 +2,7 @@
 
 "Safe" libraries for the JS/TS:
 
--   [Serializer](https://github.com/KrickRay/safejs/tree/main/packages/serialzier) - serialize for recursive JavaScript to a superset of JSON that includes regular expressions, dates and functions, which you can also expand yourself.
+-   [Serializer](https://github.com/KrickRay/safejs/tree/main/packages/serializer) - is a superset of JSON that includes recursive objects, dates, regular expressions, functions and others which you also can expand by yourself
 
 ## Installation
 
