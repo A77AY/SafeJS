@@ -7,7 +7,7 @@
     "extension",
     "util"
   ],
-  "version": "0.0.0",
+  "version": "0.1.0",
   "main": "lib/index.js",
   "types": "lib/index.d.js",
   "license": "MIT",
@@ -29,6 +29,6 @@
     "readme": "shx cp ../../README.md ./"
   },
   "dependencies": {
-    "@safejs/serializer": "^0.0.0"
+    "@safejs/serializer": "^0.1.0"
   }
 }
