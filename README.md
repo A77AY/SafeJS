@@ -1,4 +1,4 @@
-# SafeJS
+# SafeJS (SafeS / Safe Script)
 
 "Safe" libraries for the JS/TS:
 
@@ -7,7 +7,7 @@
 ## Installation
 
 ```sh
-npm i safejs
+npm i safes
 ```
 
 or:

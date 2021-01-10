@@ -1,5 +1,5 @@
 {
-  "name": "safejs",
+  "name": "safes",
   "description": "Safe extensions and utilities for the JavaScript (TypeScript)",
   "keywords": [
     "JS",
@@ -17,10 +17,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/KrickRay/safejs.git",
-    "directory": "packages/safejs"
+    "url": "https://github.com/KrickRay/safes.git",
+    "directory": "packages/safes"
   },
-  "homepage": "https://github.com/KrickRay/safejs",
+  "homepage": "https://github.com/KrickRay/safes",
   "scripts": {
     "test": "jest",
     "watch": "jest --watch",
@@ -30,5 +30,6 @@
   },
   "dependencies": {
     "@safejs/serializer": "^0.1.0"
-  }
+  },
+  "gitHead": "ac3b6a1f5aaf6c754c993b2c5dea950d348f2936"
 }
